@@ -1,3 +1,14 @@
+# HPDIC MOD
+
+* DO NOT follow the official installation guide, it won't work; Do the following on Ubuntu20:
+	* Run the init and setup scripts of System0
+	* `sudo apt install tcl-dev`
+	* `git clone git@github.com:hpdic/sqlite.git`
+	* `mkdir bin_sqlite; cd bin_sqlite`
+	* `../sqlite/configure`
+	* `make`
+	* `./sqlite`
+
 <h1 align="center">SQLite Source Repository</h1>
 
 This repository contains the complete source code for the
