@@ -12300,6 +12300,9 @@ int SQLITE_CDECL wmain(int argc, wchar_t **wargv){
       char *zHistory;
       int nHistory;
       printf(
+        "============================================\n"
+        "=== HPDIC-MOD by dzhao@uw.edu, 1/16/2023 ===\n"
+        "============================================\n"
         "SQLite version %s %.19s\n" /*extra-version-info*/
         "Enter \".help\" for usage hints.\n",
         sqlite3_libversion(), sqlite3_sourceid()
